@@ -1,0 +1,349 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.7f1 (b16b3b16c7a0) revision 11627323'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19043) 64bit Enterprise' Language: 'en' Physical Memory: 8153 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2022.3.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+G:/MPG/Shooter Logic for 7Learn
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+53088
+Successfully changed project path to: G:/MPG/Shooter Logic for 7Learn
+G:/MPG/Shooter Logic for 7Learn
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [11260] Host "[IP] 0.0.0.0 [Port] 0 [Flags] 2 [Guid] 2702073680 [EditorId] 2702073680 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-MNPQAM7) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [11260] Host "[IP] 0.0.0.0 [Port] 0 [Flags] 2 [Guid] 2702073680 [EditorId] 2702073680 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-MNPQAM7) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 7.48 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.7f1 (b16b3b16c7a0)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2022.3.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path G:/MPG/Shooter Logic for 7Learn/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GT 730 (ID=0x1287)
+    Vendor:   NVIDIA
+    VRAM:     2007 MB
+    Driver:   30.0.14.7298
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2022.3.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2022.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2022.3.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56252
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2022.3.7f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity 2022.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity 2022.3.7f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.019754 seconds.
+- Loaded All Assemblies, in  1.135 seconds
+Native extension for LinuxStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 510 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.380 seconds
+Domain Reload Profiling: 2511ms
+	BeginReloadAssembly (250ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (134ms)
+	RebuildNativeTypeToScriptingClass (39ms)
+	initialDomainReloadingComplete (309ms)
+	LoadAllAssembliesAndSetupDomain (398ms)
+		LoadAssemblies (249ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (393ms)
+			TypeCache.Refresh (390ms)
+				TypeCache.ScanAssembly (357ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1381ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1224ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (791ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (7ms)
+			ProcessInitializeOnLoadAttributes (267ms)
+			ProcessInitializeOnLoadMethodAttributes (151ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.099 seconds
+Refreshing native plugins compatible for Editor in 5.63 ms, found 1 plugins.
+Native extension for LinuxStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.152 seconds
+Domain Reload Profiling: 2245ms
+	BeginReloadAssembly (391ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (60ms)
+	RebuildCommonClasses (104ms)
+	RebuildNativeTypeToScriptingClass (30ms)
+	initialDomainReloadingComplete (105ms)
+	LoadAllAssembliesAndSetupDomain (462ms)
+		LoadAssemblies (520ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (170ms)
+			TypeCache.Refresh (132ms)
+				TypeCache.ScanAssembly (116ms)
+			ScanForSourceGeneratedMonoScriptInfo (31ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1152ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (735ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (68ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (120ms)
+			ProcessInitializeOnLoadAttributes (430ms)
+			ProcessInitializeOnLoadMethodAttributes (96ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 3.48 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1591 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (53.8 KB). Loaded Objects now: 2071.
+Memory consumption went from 86.6 MB to 86.5 MB.
+Total: 7.577500 ms (FindLiveObjects: 0.227200 ms CreateObjectMapping: 0.176700 ms MarkObjects: 6.913000 ms  DeleteObjects: 0.258500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 26065.320947 seconds.
+  path: Assets/New folder (2)/Crate/Crate.sbsar
+  artifactKey: Guid(b6d32b5e32ed05745a00b432ded81642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New folder (2)/Crate/Crate.sbsar using Guid(b6d32b5e32ed05745a00b432ded81642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64a896f7f9afc87071cef1c92b78d1b9') in 0.025794 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/New folder (2)/Crate
+  artifactKey: Guid(c8cb3ff456931554c8cc4ada1355fd6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New folder (2)/Crate using Guid(c8cb3ff456931554c8cc4ada1355fd6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53c99e03ed4bd09adddf18f6271e4a48') in 0.000705 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 185.595660 seconds.
+  path: Assets/New folder (2)/Crate/New tree_specularLevel.png
+  artifactKey: Guid(870ec9b961dc1b0439c62c7bc2d15de5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New folder (2)/Crate/New tree_specularLevel.png using Guid(870ec9b961dc1b0439c62c7bc2d15de5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e97783eb2d22b9e1be0a90f4f89ddbf') in 0.086617 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 51.718852 seconds.
+  path: Assets/3DModels/Crate.fbx
+  artifactKey: Guid(461dc1fb8c6f8d5468320adad0f77ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModels/Crate.fbx using Guid(461dc1fb8c6f8d5468320adad0f77ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '024807f2a2d001d9cdc40c4d664c7617') in 0.193714 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 8.157877 seconds.
+  path: Assets/New folder (2)/Crate/Materials
+  artifactKey: Guid(c3e179e704c52d04daa38769951291dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New folder (2)/Crate/Materials using Guid(c3e179e704c52d04daa38769951291dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd4677ff84fe77c52ee82510159d83eb') in 0.000757 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 197.068516 seconds.
+  path: Assets/New folder (2)/Crate/Materials/Crate.fbx
+  artifactKey: Guid(895d2a48c2488704682aa60d98ab2bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New folder (2)/Crate/Materials/Crate.fbx using Guid(895d2a48c2488704682aa60d98ab2bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d0780d6540f73d5ecab182ca0467ec2') in 0.052898 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 3.248223 seconds.
+  path: Assets/New folder (2)/Crate/Materials/Crate.fbx
+  artifactKey: Guid(895d2a48c2488704682aa60d98ab2bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New folder (2)/Crate/Materials/Crate.fbx using Guid(895d2a48c2488704682aa60d98ab2bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c19428267e3e28311a7e05d8444b9e2') in 0.039852 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 39.378893 seconds.
+  path: Assets/New folder (2)/Crate/New tree_ambientOcclusion.png
+  artifactKey: Guid(169e9919ba56d7242be35dc87a2a3aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New folder (2)/Crate/New tree_ambientOcclusion.png using Guid(169e9919ba56d7242be35dc87a2a3aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26e8e02120e753d60a4db6a3906694a8') in 0.024399 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/New folder (2)/Crate/New tree_opacity.png
+  artifactKey: Guid(3a99dc130de99b44496ad939843fb5bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New folder (2)/Crate/New tree_opacity.png using Guid(3a99dc130de99b44496ad939843fb5bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4983ad426afef6e6bb4af486444a48d1') in 0.028766 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/New folder (2)/Crate/New tree_height.png
+  artifactKey: Guid(1862deb472412084dafea71743c28df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New folder (2)/Crate/New tree_height.png using Guid(1862deb472412084dafea71743c28df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca5db7218b23c34fffaf03019c9f3443') in 0.025888 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/New folder (2)/Crate/New tree_baseColor.png
+  artifactKey: Guid(4b5385665f0e1354bbd5f819447bd46f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New folder (2)/Crate/New tree_baseColor.png using Guid(4b5385665f0e1354bbd5f819447bd46f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e65f52d9e4a5d97567dfb88a0c6c7085') in 0.024839 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/New folder (2)/Crate/New tree_normal.png
+  artifactKey: Guid(cba36ac1ea3d6d6438b9694cda024988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New folder (2)/Crate/New tree_normal.png using Guid(cba36ac1ea3d6d6438b9694cda024988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83f78a2af817bfb2792ee2e896c1b8b5') in 0.053098 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/New folder (2)/Crate/New tree_roughness.png
+  artifactKey: Guid(210d105532e031e4fb984876cf5794a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New folder (2)/Crate/New tree_roughness.png using Guid(210d105532e031e4fb984876cf5794a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fcc1a03f20c797ddf28d2cb9ff38330') in 0.030441 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/New folder (2)/Crate/New tree_metallic.png
+  artifactKey: Guid(83147e0a2bda5664f8958d110269241c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New folder (2)/Crate/New tree_metallic.png using Guid(83147e0a2bda5664f8958d110269241c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82f4ce0cfe92232b5adbbeb82b876d02') in 0.023082 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 97.798413 seconds.
+  path: Assets/New folder (2)/Crate/New tree_specularLevel.png
+  artifactKey: Guid(870ec9b961dc1b0439c62c7bc2d15de5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New folder (2)/Crate/New tree_specularLevel.png using Guid(870ec9b961dc1b0439c62c7bc2d15de5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fa8b60828ebe80b906064eae2a99144') in 0.018804 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 4.404110 seconds.
+  path: Assets/New folder (2)/Crate/New tree_metallic.png
+  artifactKey: Guid(83147e0a2bda5664f8958d110269241c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New folder (2)/Crate/New tree_metallic.png using Guid(83147e0a2bda5664f8958d110269241c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41c388aa336d594840f5c7340970282e') in 0.015310 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.783083 seconds.
+  path: Assets/New folder (2)/Crate/New tree_height.png
+  artifactKey: Guid(1862deb472412084dafea71743c28df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New folder (2)/Crate/New tree_height.png using Guid(1862deb472412084dafea71743c28df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40ef4a896b78343bb38e646e5c3f9c09') in 0.018865 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 5.180870 seconds.
+  path: Assets/New folder (2)/Crate/New tree_baseColor.png
+  artifactKey: Guid(4b5385665f0e1354bbd5f819447bd46f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New folder (2)/Crate/New tree_baseColor.png using Guid(4b5385665f0e1354bbd5f819447bd46f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edeeb4be5fe5562ac82170c27fe52ebc') in 0.015971 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 17.502994 seconds.
+  path: Assets/New folder (2)/Crate.fbx
+  artifactKey: Guid(93cdf42d71498f14d9178b02a61bd172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New folder (2)/Crate.fbx using Guid(93cdf42d71498f14d9178b02a61bd172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79266539e24bc586951533e4d4be69a2') in 0.035746 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 4.204074 seconds.
+  path: Assets/New folder (2)/Crate.fbx
+  artifactKey: Guid(93cdf42d71498f14d9178b02a61bd172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New folder (2)/Crate.fbx using Guid(93cdf42d71498f14d9178b02a61bd172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc72709853e179a99bc1c39993f454ac') in 0.039227 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
